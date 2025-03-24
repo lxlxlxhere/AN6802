@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 flag = 1
-api = "AIzaSyAAlhah2ufZvgTpeyfM2ic8b108ZwnZxnA"
+api = "AIzaSyAvGDduljAozDfT2txMjH1hP3m7Cve-gPY"
 model = genai.GenerativeModel("gemini-1.5-flash")
 genai.configure(api_key=api)
 
