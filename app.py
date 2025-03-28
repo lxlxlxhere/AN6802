@@ -8,7 +8,7 @@ import wikipedia
 app = Flask(__name__)
 
 flag = 1
-api = "AIzaSyAvGDduljAozDfT2txMjH1hP3m7Cve-gPY"
+api = os.getenv("makersuite")
 model = genai.GenerativeModel("gemini-1.5-flash")
 genai.configure(api_key=api)
 
